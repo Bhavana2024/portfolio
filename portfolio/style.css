@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    height: 100px;
+    width: 100%;
+    background-color:#778da9;
+    font-size:25px;
+    
+}
+.word{
+
+    width:100%;
+    height:100px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    color:white;
+    background-color:#1d3557;
+}
+.word{
+    font-size:30px ;
+    font-weight:200;
+}
+h1 {
+    animation: type 3s steps(22);
+    overflow:hidden;
+    white-space:nowrap;
+}
+@keyframes type {
+    0% {
+        width:0ch;
+    }
+    100% {
+        width:22ch;
+    }
+}
+.poj{
+height:100px;
+width:100%;
+font-size: 30px;
+padding-top: 50px;
+
+}
+h2 u{
+    display: flex;
+    
+    justify-content: center;
+    padding-top: 10px;
+}
+.box{
+    height:900px;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #e0e1dd;
+    align-items: center;
+    flex-wrap: wrap;
+     
+ }
+ .b-img
+ {
+    width:650px;
+    height: 300px;
+ }
+.img1{
+    height:300px;
+    width:650px;   
+    
+}
+ 
+ .img2{
+    height:300px;
+    width:650px;
+ 
+  }
+ .img3{
+    height:300px;
+    width:650px; 
+    padding-top:20px; 
+ }
+ .img4{
+    height:300px;
+    width:650px; 
+    padding-top: 20px;
+  }
+
+p{
+    height: 200px;
+    font-size:30px ;
+    font-weight:10;
+    display: flex;
+    justify-content: center;
+}
+p:hover{
+    color: blue;
+}
+ .but{
+    border-radius: 15%;
+    height: 50px;
+    width:200px;
+    background-color: green;
+    font-size: 15px;
+}
+button:hover {
+    color: white;
+}
+.bottom{
+    height:200px;
+    width:100%;
+    background-color:  #222f3d;
+}
+.know {
+    font-size: 25px;
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+.panel1{
+    height:150px;
+    display:flex;
+    justify-content:flex;
+    background-color:#222f3d ;
+    color:white;
+
+} 
+.facebook
+{
+    color:white;
+    height:20px;
+    
+}
+.facebook:hover{
+    margin-top: 20px;
+    
+}
+.github
+{
+    color:white;
+    height:20px;
+
+}
+.github:hover{
+    margin-top: 20px;
+    
+}
+.linked
+{
+    color:white;
+    height:20px;
+
+}
+.linked:hover{
+    margin-top: 20px;
+    
+}
+.mail
+{
+    color:white;
+    height:20px;
+
+}
+.mail:hover{
+    margin-top: 20px;
+    
+}
+.call
+{
+    color:white;
+    height:20px;
+
+}
+.call:hover
+{
+  margin-top: 20px;
+}
